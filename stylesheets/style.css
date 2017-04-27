@@ -1,0 +1,28 @@
+.body-custom {
+  font-family: 'Roboto'!important;
+  color: white;
+  background: rgb(183, 63, 155) !important;
+}
+
+.h1-custom {
+  font-size: 7vw;
+}
+
+.h2-custom {
+  font-size: 5vw;
+}
+
+.btn, 
+.btn:active{
+  color: white;
+  border-color: white;
+  border-width: 2px;
+  background: rgb(183, 63, 155);
+}
+ 
+.btn:hover{
+  color: rgb(183, 63, 155);
+  border-color: white;
+  border-width: 2px;
+  background: white;
+}

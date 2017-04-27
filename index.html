@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Personal webapp">
+    <meta name="author" content="Gregorio Cabral">
+
+    <title>Weather Here</title>
+
+    <!-- JavaScript -->
+    <script src="javascripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="javascripts/moment.min.js"></script>
+    <script src="javascripts/scripts.js"></script>
+
+
+    <!-- CSS -->
+    
+    <link href="stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Custom Fonts -->
+    <!-- <link href="stylesheets/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
+
+    <script src="https://use.fontawesome.com/27f3c77014.js"></script>
+
+    <!-- Google Analytics -->
+    
+
+</head>
+
+    <body class="body-custom">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-8 offset-2 text-center mt-5">
+        <h1 id="city" class="h1-custom pb-4 text-white">
+          
+        </h1> 
+        <h1  class="h1-custom pb-4 text-white">
+           <span id="temperature">
+             Loading...
+          </span> 
+          &nbsp
+          <button type="button" id="units" class="btn btn-info">
+            Units
+          </button>
+        </h1>
+        <h1 class="h1-custom pb-4 text-white">
+          <span  id="sky">             
+          </span>
+        </h1>
+        <h2 class="h2-custom text-white">
+          <span id="summary">
+          </span>
+        </h2>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
